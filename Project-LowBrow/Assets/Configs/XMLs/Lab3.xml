@@ -1,0 +1,37 @@
+//Lab 3
+
+<Actor>
+	<Transform>
+		<Position x="0", y="0", z="0"/>
+		<Rotation x="0", y="0", z="0"/>
+		<Scale x="1", y="1", z="1"/>
+	</Transform>
+	<MeshFilter>Cube</MeshFilter>
+	<BoxCollider>
+		<isTrigger>false</isTrigger>
+		<Material>None</Material>
+		<Center x="0", y="0", z="0"/>
+		<Size x="1", y="1", z="1"/>
+	</BoxCollider>
+	<MeshRenderer>
+		<CastShadows>true</CastShadows>
+		<ReceiveShadows>true</ReceiveShadows>
+		<Materials>
+			<Size>1</Size>
+			<Elements type="array">
+			<value>White</value>
+			</Elements>
+		</Materials>
+		<UseLightProbes>false</UseLightProbes>
+	</MeshRenderer>
+	<Rigidbody>
+		<Mass>1</Mass>
+		<Drag>0</Drag>
+		<AngularDrag>0.05</AngularDrag>
+		<UseGravity>true<UseGravity>
+		<isKinematic>false</isKinematic>
+		<Interpolate>None</Interpolate>
+		<CollisionDetection>Continuous</CollisionDetection>
+	</Rigidbody>
+</Actor>
+	
